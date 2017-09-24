@@ -1,18 +1,16 @@
-import java.utli.*;
-class Bai1 
+import java.util.*;
+
+public class Bai1
 {
-	public static void main(String []args)
-	{
+	static int S=0;
+	public static void main(String []args){
 	Scanner sc = new Scanner(System.in);
-	    int S=0;
-	    int n=0;
-	System.out.println("inter value: ");
-	System.out.println("\n");
-	n = sc.nextInt();
-	    for(int i=0;i<n;i++)
-	    {
-		S = S +i;
-	    }
-	    System.out.println("S: ",+S);
+	System.out.println("input number: ");
+	int n=sc.nextInt();
+	for(int i=1;i<=n;i++)
+	{
+		S=S+i;
 	}
+	System.out.println("sum is: " +S);
+  }
 }
