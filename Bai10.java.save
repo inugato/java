@@ -1,0 +1,11 @@
+import java.util.*;
+public class Bai10
+{	
+	static int Result = 0;
+	public static void main(String []args)
+	{
+		System.out.println("Enter n: ");
+		Scanner sc = 
+	}
+	System.out.println();
+}
